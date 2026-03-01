@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Ontario Compliance Operating System™ | Natural Alternatives</title>
+<meta name="description" content="Elite Ontario-aligned compliance operating system for employers. Generate, implement, track, and maintain inspection-ready documentation." />
+
+<script>
+  /* SINGLE SOURCE OF TRUTH (fixes broken/mismatched links) */
+  const COMPLIANCE_URL = "https://www.naturalalternatives.ca/ontario-compliance-operating-system-/";
+</script>
+
+<style>
+:root{
+  --bg:#0b0b0c;
+  --bg2:#0f0f12;
+  --surface: rgba(255,255,255,.03);
+  --border:#2a2a33;
+  --text:#f2f2f2;
+  --muted:#b9b9c2;
+  --muted2:#9a9aa3;
+  --green:#7ac143;
+  --shadow: 0 18px 40px rgba(0,0,0,.55);
+  --shadowSoft: 0 12px 26px rgba(0,0,0,.40);
+  --radius: 18px;
+  --max: 1120px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;
+  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  background:
+    radial-gradient(1200px 520px at 25% -10%, rgba(255,255,255,.10) 0%, transparent 60%),
+    radial-gradient(900px 460px at 85% 0%, rgba(255,255,255,.07) 0%, transparent 60%),
+    linear-gradient(180deg, var(--bg) 0%, var(--bg2) 100%);
+  color:var(--text);
+  line-height:1.55;
+}
+a{text-decoration:none;color:inherit}
+
+.wrap{max-width:var(--max);margin:auto;padding:20px 28px 140px;}
+
+header{
+  position:sticky;
+  top:14px;
+  z-index:999;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:20px;
+  padding:18px 22px;
+  border:1px solid rgba(255,255,255,.14);
+  border-radius:16px;
+  background:rgba(18,18,23,.6);
+  backdrop-filter:blur(12px);
+  box-shadow:var(--shadowSoft);
+}
+.brand strong{font-size:14px;letter-spacing:.4px}
+.brand span{font-size:12px;color:var(--muted2)}
+
+nav{display:flex;gap:12px;flex-wrap:wrap}
+nav a{
+  padding:8px 12px;
+  border-radius:12px;
+  font-size:14px;
+  color:var(--muted);
+}
+nav a:hover{background:rgba(255,255,255,.06);color:#fff}
+nav a.primary{
+  background:rgba(255,255,255,.08);
+  border:1px solid rgba(255,255,255,.14);
+  font-weight:800;
+  color:#fff;
+}
+
+main{margin-top:50px}
+.hero h1{
+  font-size: clamp(34px,5vw,60px);
+  line-height:1.06;
+  margin:0;
+}
+.hero p{
+  font-size:18px;
+  color:var(--muted);
+  max-width:950px;
+}
+.accent{
+  width:170px;
+  height:8px;
+  background:var(--green);
+  border-radius:999px;
+  margin-top:12px;
+}
+
+.btn{
+  display:inline-block;
+  padding:14px 20px;
+  border-radius:14px;
+  font-weight:900;
+  border:1px solid rgba(255,255,255,.16);
+  background:rgba(255,255,255,.08);
+  margin-top:18px;
+}
+.btn:hover{background:rgba(255,255,255,.14)}
+.btn.primary{
+  box-shadow:0 0 0 1px rgba(122,193,67,.35) inset;
+}
+
+section{
+  padding:50px 0;
+  border-top:1px solid var(--border);
+}
+.grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+  gap:18px;
+}
+.card{
+  background:var(--surface);
+  border:1px solid var(--border);
+  border-radius:var(--radius);
+  padding:20px;
+  box-shadow:var(--shadowSoft);
+}
+.card h3{margin:0 0 8px}
+.card p{margin:0;color:var(--muted);font-size:14px;line-height:1.6}
+
+footer{
+  border-top:1px solid var(--border);
+  padding:30px 0;
+  margin-top:40px;
+  font-size:13px;
+  color:var(--muted2);
+  display:flex;
+  justify-content:space-between;
+  flex-wrap:wrap;
+  gap:12px;
+}
+footer a{border-bottom:1px solid rgba(255,255,255,.15)}
+footer a:hover{color:var(--green)}
+
+.floating{
+  position:fixed;
+  bottom:15px;
+  left:50%;
+  transform:translateX(-50%);
+  background:rgba(18,18,23,.8);
+  backdrop-filter:blur(12px);
+  border:1px solid rgba(255,255,255,.14);
+  border-radius:16px;
+  padding:10px 16px;
+  display:flex;
+  gap:12px;
+  box-shadow:var(--shadow);
+  z-index:1000;
+}
+@media (max-width:720px){
+  .wrap{padding:18px 18px 160px;}
+  .floating{width:calc(100% - 20px);justify-content:space-between;}
+}
+</style>
+</head>
+
+<body>
+<div class="wrap">
+
+<header>
+  <div class="brand">
+    <strong>Natural Alternatives</strong><br>
+    <span>Ontario Compliance Division</span>
+  </div>
+
+  <nav>
+    <a href="#overview">Overview</a>
+    <a href="#what">What You Get</a>
+    <a href="#who">Who It’s For</a>
+
+    <!-- ✅ Working Compliance Link (absolute HTTPS + trailing slash via COMPLIANCE_URL) -->
+    <a class="primary" href="#" id="navCompliance">Go to Compliance Page</a>
+  </nav>
+</header>
+
+<main>
+  <div class="hero" id="overview">
+    <h1>Ontario Compliance Operating System™</h1>
+    <p>
+      A premium, Ontario-aligned documentation system designed for employers who want inspection-ready structure without rebuilding from scratch.
+      Built to support consistent SOPs, training proof, logs, and governance across real operations.
+    </p>
+    <div class="accent"></div>
+
+    <!-- ✅ Working Compliance CTA -->
+    <a class="btn primary" href="#" id="heroCompliance">Open the Compliance Page</a>
+    <br/>
+    <a class="btn" href="#" id="heroCompliancePricing">Jump to Pricing on Compliance Page</a>
+  </div>
+
+  <section id="what">
+    <h2 style="margin:0 0 14px;">What You Get</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Inspection-Ready Structure</h3>
+        <p>Clear organization designed to reduce scrambling during inspections by keeping policies, SOPs, and records aligned.</p>
+      </div>
+      <div class="card">
+        <h3>Prompt-Driven Documentation</h3>
+        <p>Generate draft materials faster, then tailor to your equipment, tasks, hazards, and crew operations.</p>
+      </div>
+      <div class="card">
+        <h3>Tracking & Verification</h3>
+        <p>Support due diligence with logs, sign-offs, training records, and corrective action tracking frameworks.</p>
+      </div>
+    </div>
+
+    <div style="margin-top:18px;">
+      <a class="btn primary" href="#" id="midCompliance">View Full Compliance System</a>
+    </div>
+  </section>
+
+  <section id="who">
+    <h2 style="margin:0 0 14px;">Who It’s For</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Small to Mid Employers</h3>
+        <p>Operators who need a professional framework to build and maintain documentation without starting from zero.</p>
+      </div>
+      <div class="card">
+        <h3>Multi-Crew Operations</h3>
+        <p>Organizations that need consistent governance, standardized SOPs, and repeatable training proof across crews.</p>
+      </div>
+      <div class="card">
+        <h3>Audit & Due Diligence Mindset</h3>
+        <p>Teams focused on record quality, update cycles, responsibility assignment, and proof of implementation over time.</p>
+      </div>
+    </div>
+
+    <div style="margin-top:18px;">
+      <a class="btn" href="#" id="bottomCompliance">Go to Compliance Page</a>
+    </div>
+  </section>
+
+  <footer>
+    <div>© <span id="y"></span> Natural Alternatives</div>
+    <div>
+      <a href="#" id="footerCompliance">Ontario Compliance Operating System™</a>
+    </div>
+  </footer>
+</main>
+</div>
+
+<!-- Floating CTA (always works) -->
+<div class="floating" role="region" aria-label="Quick access">
+  <a class="btn primary" href="#" id="floatCompliance">Compliance Page</a>
+  <a class="btn" href="#" id="floatPricing">Compliance Pricing</a>
+</div>
+
+<script>
+  // Year
+  document.getElementById('y').textContent = new Date().getFullYear();
+
+  // Helper to safely navigate (prevents partial/relative path issues)
+  function go(url){
+    window.location.href = url;
+  }
+
+  // Bind every compliance link to the exact same canonical URL
+  const pricingUrl = COMPLIANCE_URL + "#pricing";
+
+  const bind = (id, url) => {
+    const el = document.getElementById(id);
+    if(!el) return;
+    el.setAttribute("href", url);
+    el.addEventListener("click", (e) => {
+      // ensure it always navigates even if something overrides clicks
+      e.preventDefault();
+      go(url);
+    });
+  };
+
+  bind("navCompliance", COMPLIANCE_URL);
+  bind("heroCompliance", COMPLIANCE_URL);
+  bind("midCompliance", COMPLIANCE_URL);
+  bind("bottomCompliance", COMPLIANCE_URL);
+  bind("footerCompliance", COMPLIANCE_URL);
+  bind("floatCompliance", COMPLIANCE_URL);
+
+  bind("heroCompliancePricing", pricingUrl);
+  bind("floatPricing", pricingUrl);
+</script>
+</body>
+</html>
